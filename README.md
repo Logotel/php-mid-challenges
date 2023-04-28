@@ -31,3 +31,16 @@ All the tests should pass.
 - [ ] [Challenge 03](/src/Challenge03/)
 - [ ] [Challenge 04](/src/Challenge04/)
 - [ ] [Challenge 05](/src/Challenge05/)
+
+### HINT
+
+Want to execute one test at the time?
+
+```bash
+vendor/bin/phpunit --filter method_name path/to/classTest.php
+```
+
+Example 
+```bash
+vendor/bin/phpunit --filter test_answers_will_be_displayed_correctly tests/Challenge01/Challenge01Test.php
+```

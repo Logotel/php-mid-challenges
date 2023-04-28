@@ -32,7 +32,7 @@ class Challenge04Test extends TestCase
         $this->assertEquals($icecream->price(), 9);
     }
 
-    public function test_ice_cream_can_be_created__skipping_the_same_taste(): void
+    public function test_ice_cream_can_be_created_skipping_the_same_taste(): void
     {
         $icecream = new IceCream;
 
@@ -76,7 +76,7 @@ class Challenge04Test extends TestCase
         $this->assertEquals($icecream->getCoupon(), $expected);
     }
 
-    public function couponProvider(){
+    public static function couponProvider(){
         return [
             "no coupon" => [
                 "tastes" => ["1", "2", "3"],
@@ -84,7 +84,7 @@ class Challenge04Test extends TestCase
             ],
             "one coupon" => [
                 "tastes" => ["1", "2", "3", "4", "5"],
-                "expected" => 0
+                "expected" => 1
             ],
             "two coupon" => [
                 "tastes" => ["1", "2", "3", "4", "5", "6"],

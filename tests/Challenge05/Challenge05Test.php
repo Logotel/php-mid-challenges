@@ -28,7 +28,7 @@ class Challenge05Test extends TestCase
 
     }
 
-    public function swapiDataProvider(){
+    public static function swapiDataProvider(){
         return [
             "list" => [
                 "id" => null,

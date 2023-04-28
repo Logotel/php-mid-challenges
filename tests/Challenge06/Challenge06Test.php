@@ -20,20 +20,20 @@ class Challenge06Test extends TestCase
             $media_player->addMedia($type);
         }
 
+        if($exception){
+            $this->expectException("\\Logotel\\ChallengeMidDev\\Challenge06\\ExecutorNotFoundException");
+        }
+
         $result = $media_player->play($running);
 
         if(! $exception)
         {
             $this->assertEquals($expected, $result);
-        }
-        else
-        {
-            $this->expectException("\\Logotel\\ChallengeMidDev\\Challenge06\\ExecutorNotFoundException");
-        }
+        }  
 
     }
 
-    public function mediaProvider()
+    public static function mediaProvider()
     {
         return [
             "with multiple" => [
@@ -50,12 +50,12 @@ class Challenge06Test extends TestCase
             ],
             "with mp4" => [
                 "types" => ["mp4", "avi"],
-                "running" => "mp3",
+                "running" => "mp4",
                 "expected" => "mp4 playing, and is a video",
                 "exception" => false
             ],
             "with invalid type" => [
-                "types" => ["tiff", "avi"],
+                "types" => ["mp3", "avi"],
                 "running" => "tiff",
                 "expected" => "",
                 "exception" => true
