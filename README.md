@@ -33,6 +33,10 @@ All the tests should pass.
 - [ ] [Challenge 05](/src/Challenge05/)
 - [ ] [Challenge 06](/src/Challenge06/)
 
+### How to work
+
+Fork this branch and code on the forked one. Then email us with the forked URL.
+
 ### HINT
 
 Want to execute one test at the time?
