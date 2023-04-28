@@ -31,6 +31,7 @@ All the tests should pass.
 - [ ] [Challenge 03](/src/Challenge03/)
 - [ ] [Challenge 04](/src/Challenge04/)
 - [ ] [Challenge 05](/src/Challenge05/)
+- [ ] [Challenge 06](/src/Challenge06/)
 
 ### HINT
 
