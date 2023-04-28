@@ -1,0 +1,18 @@
+{
+    "name": "logotel/challenge-mid-dev",
+    "description": "Challange for mid developer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Logotel\\ChallengeMidDev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giacomo Garavaglia"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    }
+}
