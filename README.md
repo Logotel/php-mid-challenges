@@ -10,6 +10,11 @@ No need to install anything except for php cli and composer.
 
 All the challenges can be run by executing test case with vendor/bin/phpunit
 
+### Requirements
+
+- php cli >= 8.0
+- composer
+
 ### Install
 
 ```bash
@@ -26,12 +31,12 @@ vendor/bin/phpunit
 
 All the tests should pass.
 
-- [ ] [Challenge 01](/src/Challenge01/)
-- [ ] [Challenge 02](/src/Challenge02/)
-- [ ] [Challenge 03](/src/Challenge03/)
-- [ ] [Challenge 04](/src/Challenge04/)
-- [ ] [Challenge 05](/src/Challenge05/)
-- [ ] [Challenge 06](/src/Challenge06/)
+- ✅ [Challenge 01](/src/Challenge01/)
+- ✅ [Challenge 02](/src/Challenge02/)
+- ✅ [Challenge 03](/src/Challenge03/)
+- ✅ [Challenge 04](/src/Challenge04/)
+- ✅ [Challenge 05](/src/Challenge05/)
+- ✅ [Challenge 06](/src/Challenge06/)
 
 ### How to work
 
