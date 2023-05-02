@@ -12,10 +12,10 @@ class Challenge07Test extends TestCase
     /**
      * @dataProvider dataProvider
      */
-    public function test_class_will_handle_correctly(string $name, array $arguments, int|string|null $expected)
+    public function test_class_will_handle_correctly(string $name, array $arguments, int|string|array|null $expected)
     {
         
-        $result = ChallengeFacade::$name($arguments);
+        $result = ChallengeFacade::$name(...$arguments);
 
         $this->assertEquals($expected, $result);
 
