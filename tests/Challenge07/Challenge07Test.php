@@ -3,7 +3,6 @@
 namespace Logotel\ChallengeMidDev\Tests\Challenge07;
 
 use Logotel\ChallengeMidDev\Challenge07\ChallengeFacade;
-use Logotel\ChallengeMidDev\Challenge07\MediaPlayer;
 use PHPUnit\Framework\TestCase;
 
 class Challenge07Test extends TestCase
