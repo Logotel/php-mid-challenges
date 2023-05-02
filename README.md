@@ -37,6 +37,8 @@ All the tests should pass.
 - ✅ [Challenge 04](/src/Challenge04/)
 - ✅ [Challenge 05](/src/Challenge05/)
 - ✅ [Challenge 06](/src/Challenge06/)
+- ✅ [Challenge 07](/src/Challenge07/)
+
 
 ### How to work
 
