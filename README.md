@@ -44,7 +44,7 @@ All the tests should pass.
 
 ### How to work
 
-Fork this branch and code on the forked one. Then email us with the forked URL.
+Clone this branch and code on the cloned one. Then email us with the zip file or a public repository URL.
 
 ### HINT
 
