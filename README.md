@@ -27,6 +27,8 @@ composer install
 vendor/bin/phpunit
 ```
 
+We use a lot of dataProvider in tests. What is a dataProvider? Find it out [here](https://phpunit.de/manual/3.7/en/writing-tests-for-phpunit.html)
+
 ### Expectation
 
 All the tests should pass.
